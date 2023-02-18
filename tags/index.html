@@ -323,10 +323,52 @@
             </div>
             <div class="tag-chips">
                 
+                
+                <a href="/tags/Typora/" title="Typora: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Typora" style="background-color: #F9EBEA;">Typora
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Markdown/" title="Markdown: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Markdown" style="background-color: #F5EEF8;">Markdown
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
             </div>
         </div>
     </div>
 </div>
+
+    
+    <link rel="stylesheet" type="text/css" href="/libs/jqcloud/jqcloud.css">
+<style type="text/css">
+    #tag-wordcloud {
+        width: 100%;
+        height: 300px;
+    }
+</style>
+
+<div class="container" data-aos="fade-up">
+    <div class="card">
+        <div id="tag-wordcloud" class="card-content"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/libs/jqcloud/jqcloud-1.0.4.min.js"></script>
+<script type="text/javascript">
+    
+
+    $('#tag-wordcloud').jQCloud([{"text":"Typora","weight":1,"link":"/tags/Typora/"},{"text":"Markdown","weight":1,"link":"/tags/Markdown/"}], {
+        autoResize: true
+    });
+</script>
 
     
 
@@ -406,7 +448,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">75</span>
+                        class="white-color">121</span>
             
             
             
@@ -483,6 +525,11 @@
                 </script>
             
             <br>
+            
+                <span id="icp"><img src="/medias/icp.png"
+                                    style="vertical-align: text-bottom;"/>
+                <a href="https://bypassgo.com/index.php#/dashboard" target="_blank">中国认证</a>
+            </span>
             
         </div>
         <div class="col s12 m4 l4 social-link social-statis">
@@ -752,7 +799,7 @@ $(function () {
 
     
     
-    <script type="text/javascript" size="150" alpha='0.6'
+    <script type="text/javascript" size="90" alpha='0.5'
         zIndex="-1" src="/libs/background/ribbon.min.js" async="async"></script>
     
 
